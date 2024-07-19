@@ -1,0 +1,4 @@
+Flask==2.3.4
+opencv-python==4.7.0.72
+tensorflow==2.17.0
+tensorflow-hub==0.13.0
