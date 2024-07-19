@@ -14,7 +14,7 @@ from flask import Flask, request, render_template
 def KerasLayer(*args, **kwargs):
     return hub.KerasLayer(*args, **kwargs)
 
-model = tf.keras.models.load_model(filepath='rice.h5', custom_objects={'KerasLayer': KerasLayer})
+model = tf.keras.models.load_model(filepath='CNN_model.h5', custom_objects={'KerasLayer': KerasLayer})
 app = Flask(__name__)
 
 @app.route('/')
